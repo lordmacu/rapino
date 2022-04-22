@@ -10,7 +10,7 @@ class Client {
     _dio.options.baseUrl =
         "https://us-central1-adomi-dev.cloudfunctions.net/core/api/v1";
     _dio.options.headers["Authorization"] =
-        'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOnsidXNlcl9pZCI6IjI5Nzk4NGIzLTQ1NDMtNDhmMC1hMTkxLTdlN2UwMWVjMWRjOCIsInVzZXJfdHlwZSI6IkFETUlOIiwicHVzaGVyX2NoYW5uZWwiOiJBRE1JTl8yOTc5ODRiMy00NTQzLTQ4ZjAtYTE5MS03ZTdlMDFlYzFkYzgifSwiaWF0IjoxNjQ0ODU5MjE3LCJleHAiOjE2NTQwNTk1OTl9.3ximsrIe4RlcXBDrVpoj7XlvhIJsLVpXEPXA42x6YeI';
+        '';
     _dio.options.headers["Accept"] = "application/json";
 
     return _dio;
